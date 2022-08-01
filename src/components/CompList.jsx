@@ -2,9 +2,11 @@ import '../style/components/CompList.css'
 
 function CompList(){
     return (
-        <li>
-            {this.value1}
-        </li>
+        <>
+        <li>Productos</li>
+        <li>Servicios</li>
+        <li>contacto</li>
+        </>
     );
 }
 
